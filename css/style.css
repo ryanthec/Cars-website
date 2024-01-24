@@ -1,0 +1,192 @@
+h1{
+    color:#cf3009f0;
+    font-size:4vw;
+    text-align:center;
+    text-decoration-line: underline;
+}
+
+h2{
+    color:#cf3009f0;
+    font-weight:bold;
+    text-decoration-line: underline;
+    font-size:2.6vw;
+    text-align:center;
+}
+
+body{
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-weight:bold;
+}
+
+.start_logo{
+    display:block;
+    text-align:center;
+    margin-left:auto;
+    margin-right:auto;
+    background-image:url("../Images_Cars/racing_track.jpg");
+    background-repeat:no-repeat;
+    background-size:cover;
+    background-position:center;
+}
+
+.start_logo img{
+    width:"30%";
+}
+
+.centerWblock{
+    display:inline-block;
+}
+
+
+.div_1{
+    text-align:center;
+    font-size:2vw;
+    transition-duration:0.5ms;
+}
+
+
+.div_1 a{
+    font-family: 'Times New Roman', Times, sans-serif;
+    font-style: italic;
+    font-weight:bold;
+    color:#000000;
+    display:inline-block;
+    background-color:#fd5f5f;
+    padding:10px;
+}
+
+.div_1 a:hover{
+    background-color:#02a0a0;
+}
+
+.div_1 a:focus{
+    background-color:#02a0a0;
+}
+
+
+.grid1{
+    display:grid;
+    grid-template-columns: 45% 40%;
+    gap:30px;
+}
+
+.div_2{
+    font-size:2vw;
+    display:inline-block;
+}
+
+.div_2>a{
+    color:#000000;
+}
+
+.div_2 :hover{
+    color:#e62525;
+    text-decoration:underline;
+    text-decoration-color:#e62525;
+}
+
+.div_2 img{
+    max-width:100%;
+    width:100%;
+    height:auto;
+}
+
+.div_3{
+    align-self:center;
+    display:inline-block;
+    width:fit-content;
+    outline:auto;
+    outline-offset:1vw;
+    outline-style:double;
+    outline-color:#f8f400f0;
+    font-size:1.7vw;
+    background-color:rgb(102, 207, 207);
+    transition-duration:0.2s;
+}
+
+.div_3:hover{
+    background-color:#b771e6;
+    outline-color:#000000;
+}
+
+
+.div_3 ul{
+    list-style-type:none;
+    padding:0;
+    margin:0;
+
+}
+
+.div_3 ul li{
+    background:url("../Images_Cars/lightning_logo.png") no-repeat left top;
+    height:3vw;
+    padding-left:4vw;
+    background-size:3vw;
+    margin-bottom:1vw;
+}
+
+ol{
+    font-size:1.8vw;
+    list-style-type:none;
+    counter-reset:item;
+    padding-left:calc(1.8vw + 20px);
+}
+
+ol>li{
+    counter-increment: item;
+    margin-bottom: 5px;
+    line-height:1.2em;
+    position:relative;
+}
+
+main>ol>li::before {
+    margin-right: 10px;
+    content: counter(item);
+    background: rgb(247, 41, 41);
+    border-radius: 50%;
+    color: white;
+    width: 1.2em;
+    text-align: center;
+    display: inline-block;
+    position:absolute;
+    left: -1.5em;
+}
+
+#endlink:focus{
+    color:#02a0a0;
+}
+
+
+nav{
+    text-align:center;
+    padding:0.2em;
+    background-color:#179e9e;
+}
+
+nav>h3{
+    font-size:3vw;
+    font-weight:bold;
+    color:#cf3009f0;
+    text-decoration:underline;
+}
+
+nav>ol{
+    text-align:center;
+}
+
+nav>ol li{
+    display:inline-block;
+    margin:1em;
+    background-color:#fd5f5f;
+    padding:0.7em;
+    text-decoration:underline;
+}
+
+nav>ol>li>a{
+    color:#000000;
+}
+
+nav>ol>li:hover{
+    background-color:#f58d38;
+}
+
